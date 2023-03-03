@@ -7,7 +7,6 @@
 % Cleaning and loading everthing to the path
 close all;
 clear;
-close all;
 
 addpath(pwd);
 cd Data/
@@ -24,7 +23,7 @@ cd ..;
 
 
 %% Load the SSI image
-load('Data\set-_01444_spec_annotated.mat'); % The function load will load the SSI image data. The image is stored in the 'image' variable
+load('Data\set-_01444_spec_annotated.mat'); % The function will load the SSI image data. The image is stored in the 'image' variable
 
 % Show the image
 figure; imagesc(image);title('The SSI image'); colorbar;
