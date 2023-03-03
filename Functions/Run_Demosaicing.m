@@ -11,6 +11,9 @@ function [I_HS] = Run_Demosaicing(I,num_band,Algo)
 %    Algo: the prefered demosaicing algorithm. The possible values are : 1
 %    for Weighted Bilinear Interpolation
 
+% Output:
+%   I_HS : The restored 3D datacube
+
 
 % Scale the values to be between 1 and 255, this step can be ignored
 I=I/255;
